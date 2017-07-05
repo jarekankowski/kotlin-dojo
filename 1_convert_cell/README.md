@@ -1,6 +1,6 @@
 The challenge of this task is to convert the enum class Cell from Java to Kotlin.
 
-The keystroke on IntelliJ to convert the codebase is:
+The shortcut on IntelliJ to convert the codebase is:
 - on Mac: Cmd + Alt + Shift + K
 - on Win: Ctrl + Alt + Shift + K
 

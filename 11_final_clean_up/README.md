@@ -1,7 +1,7 @@
-At this point @JvmField annotation can be removed.
+At this point, the @JvmField annotation can be removed.
 
-Test name can be formatted nicely with backtick.
+The test names can be formatted nicely using backticks.
 
-All annotation @Throws can be removed.
+All @Throws annotations can be removed.
 
 Is FunctionThatThrows really needed in Kotlin?
