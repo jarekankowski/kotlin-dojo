@@ -1,0 +1,25 @@
+package dojo
+
+import dojo.Cell.Empty
+import java.util.*
+
+class Board(private val grid: List<List<Cell>>) {
+
+    constructor(board: Board) : this(board.grid)
+
+    operator fun set(row: Int, column: Int, value: Cell): Board {
+        val gridCopy = grid.map { ArrayList(it) }
+        gridCopy[row][column] = value
+        return Board(gridCopy)
+    }
+
+    operator fun get(row: Int, column: Int) = grid[row][column]
+
+    val size = grid.size
+
+    fun isFull() =
+        grid.all { subList -> subList.all { it != Empty } }
+
+    fun all(coordinates: List<Pair<Int, Int>>, cell: Cell) =
+        coordinates.all { (first, second) -> get(first, second) == cell }
+}
