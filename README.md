@@ -43,41 +43,44 @@ A simple execution of the game will look like that (coordinates are 0 indexed st
      | | 
     -+-+-
      | | 
-    Player X please make a move: 
-    0 0
+    
+    Player X please make a move: 0 0
+    
     X| | 
     -+-+-
      | | 
     -+-+-
      | | 
-    Player O please make a move: 
-    1 0
+    
+    Player O please make a move: 1 0
     
     X| | 
     -+-+-
     O| | 
     -+-+-
      | | 
-    Player X please make a move: 
-    0 1
+    Player X please make a move: 0 1
+    
     X|X| 
     -+-+-
     O| | 
     -+-+-
      | | 
-    Player O please make a move: 
-    1 1
+     
+    Player O please make a move: 1 1
+    
     X|X| 
     -+-+-
     O|O| 
     -+-+-
      | | 
-    Player X please make a move: 
-    0 2
+    
+    Player X please make a move: 0 2
+    
     X|X|X
     -+-+-
     O|O| 
     -+-+-
      | | 
-    X is the winner!
     
+    X is the winner!
