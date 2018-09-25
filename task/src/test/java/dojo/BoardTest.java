@@ -25,4 +25,19 @@ public class BoardTest {
 
         assertThat(updatedBoard.get(0, 1), equalTo(X));
     }
+
+//         TODO implement later
+//    @Test
+//    public void boardIsNotFull() {
+//    }
+
+//         TODO implement later
+//    @Test
+//    public void boardIsFull() {
+//    }
+
+//         TODO implement later
+//    @Test
+//    public void containsTheSameCellInAllTheCoordinatesProvided() {
+//    }
 }

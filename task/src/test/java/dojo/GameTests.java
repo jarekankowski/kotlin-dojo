@@ -43,4 +43,14 @@ public class GameTests {
         Game game = new Game();
         game.makeMove(new Move(100, 100), X);
     }
+
+//         TODO implement later
+//    @Test(expected = Game.InvalidMove.class)
+//    public void playerTryToMakeAMoveInALocationAlreadyTaken() throws Game.InvalidMove {
+//    }
+
+//         TODO implement later
+//    @Test
+//    public void gameIsOver() {
+//    }
 }
