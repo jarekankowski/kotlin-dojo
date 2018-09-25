@@ -59,6 +59,7 @@ A simple execution of the game will look like that (coordinates are 0 indexed st
     O| | 
     -+-+-
      | | 
+    
     Player X please make a move: 0 1
     
     X|X| 
